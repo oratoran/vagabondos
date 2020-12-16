@@ -1,5 +1,5 @@
 <script>
-    import NavLinks from "NavLinks.svelte";
+    import NavLinks from "./_navlinks.svelte";
 </script>
 
 <!-- routify:options preload="proximity" -->
