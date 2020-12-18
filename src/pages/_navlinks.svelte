@@ -4,7 +4,7 @@
   const _links = [
     ["/", "Ana Sayfa"],
     ["/menu", "Menümüz"],
-    ["/yenikoy-pizza-restaurant", "Restoranımız"],
+    ["/yenikoy-pizza-restaurant", "Restaurantımız"],
     ["/iletisim", "İletişim"],
   ];
 

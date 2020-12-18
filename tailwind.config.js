@@ -21,6 +21,9 @@ module.exports = {
         'hero-pattern': "url('https://www.vagabondosrest.com/wp-content/uploads/2011/12/vagabondos_restaurant_bg_1jpg.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",
        }),
+      fontFamily: {
+        'ozel': ['Arial', 'cursive', 'system-ui']
+       }
     },
   },
 };

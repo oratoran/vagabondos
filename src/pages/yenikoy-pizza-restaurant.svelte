@@ -54,7 +54,7 @@ onMount(async () => {
 
   lightbox.addEventListener('click', e => {
     // Do nothing if user clicks on anything other than img tag.
-    if (event.target.tagName.toLowerCase() !== 'img') {
+    if (e.target.tagName.toLowerCase() !== 'img') {
       return;
     }
 
@@ -67,9 +67,12 @@ onMount(async () => {
     
 </script>
 
-<div class="flex w-5/6 mx-auto my-20 lightbox" id="lightbox">
+<div class="md:w-4/5 mx-auto pt-10 font-semibold text-center">
+  <h1 class="text-green-600 text-2xl">Vagabondo's Restaurant'ı Keşfedin</h1>
+  <p>Vagabondo’s Restaurant 1989 yılından bu yana aralıksız olarak hizmet vermektedir.</p>
+</div>
 
-
+<div class="flex md:w-4/5 mx-auto my-20 lightbox" id="lightbox">
 <Gallery gap="10" maxColumnWidth="600">
     {#each Array(photos) as photo, i}
         
@@ -77,7 +80,6 @@ onMount(async () => {
        
     {/each}
 </Gallery>
-
 </div>
 
 <style global>
