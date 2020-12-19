@@ -6,7 +6,9 @@
     import { onMount } from 'svelte';
     let formRes;
 
-	onMount(() => {
+   
+	
+    onMount(async () => {
     
     const formResult = document.getElementById("formResult");
 	  const form = document.getElementById("form");
