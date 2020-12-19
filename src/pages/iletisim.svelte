@@ -12,9 +12,18 @@
         document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
     }
 
+ 
+      
+  
+
 	onMount(() => {
 
     loadRecapcha('https://www.google.com/recaptcha/api.js?render=6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR');
+
+    grecaptcha.execute('6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
 		
 		var form = document.getElementById("form");
    form.addEventListener("submit", formSubmit);
@@ -44,13 +53,6 @@
 			 })
        .catch(error => console.log(error))
        }
-
-       grecaptcha.ready(function() {
-       grecaptcha.execute('6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR', {action: 'homepage'})
-       .then(function(token) {
-         document.getElementById('captchaResponse').value = token;
-       });
-     });
 
 	});
 
