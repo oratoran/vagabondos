@@ -20,10 +20,12 @@
 
     loadRecapcha('https://www.google.com/recaptcha/api.js?render=6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR');
 
-    grecaptcha.execute('6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR', {action: 'homepage'})
+    grecaptcha.ready(function() {
+       grecaptcha.execute('6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR', {action: 'homepage'})
        .then(function(token) {
          document.getElementById('captchaResponse').value = token;
        });
+     });
 		
 		var form = document.getElementById("form");
    form.addEventListener("submit", formSubmit);
@@ -41,7 +43,7 @@
            document.querySelector('input[name="email"]').value
        )
    
-       fetch("https://getform.io/f/f1e8d54c-247c-4a9c-b79c-2af6a0954701",
+       fetch("https://getform.io/f/2ea459e6-2f7e-4ab6-b83f-3466164fbcae",
        {
            method: "POST",
            body: formData,
@@ -55,7 +57,7 @@
        }
 
 	});
-
+  
 </script>
 
 <div class="md:w-4/5 mx-auto py-10 font-semibold text-center">
