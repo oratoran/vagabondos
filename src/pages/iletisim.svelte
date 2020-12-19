@@ -6,9 +6,15 @@
     import { onMount } from 'svelte';
     let formRes;
 
-   
+    function loadrecaptcha(url) {
+        const script = document.createElement("script");  // create a script DOM node
+        script.src = url;  // set its src to the provided URL
+        document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+    }
 	
     onMount(async () => {
+
+      loadrecaptcha('https://www.google.com/recaptcha/api.js?render=6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR');
     
     const formResult = document.getElementById("formResult");
 	  const form = document.getElementById("form");
