@@ -23,14 +23,9 @@
 
 <div class="md:w-4/5 mx-auto py-10 font-semibold text-center">
     <h1 class="text-green-600 text-2xl">Vagabondo's Restaurant Menüsü</h1>
-    <p>Sadece enfes pizzaların değil İtalyan mutfağının tüm lezzetlerini sunuyoruz.</p>
+    <p>İtalyan mutfağına ait çok özel pizzaların yanı sıra başlangıç ve makarnalar, salatalar ve enfes soslu steak’lar, tatlılar ve cup çeşitleri ile sıcak ve soğuk içecekler menümüzde bulunmaktadır.</p>
 </div>
 
 <div class="md:w-4/5 mx-auto">
     <div id="3cr-1"></div>
 </div>
-
-
-
-
-

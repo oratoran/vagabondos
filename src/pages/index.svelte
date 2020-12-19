@@ -1,7 +1,5 @@
 <script>
-    import RoutifyIntro from './example/_components/RoutifyIntro.svelte'
     import { metatags } from '@roxi/routify'
-import YenikoyPizzaRestaurant from './yenikoy-pizza-restaurant.svelte';
     const since = (new Date().getFullYear()) - 1989;
     metatags.title = "Vagabondo's Restaurant - Yeniköy Pizza"
     metatags.description = `Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Restaurant 1989 dan bu zamana kadar, ${since} yıldır aralıksız sizlere hizmet vermektedir.`;
