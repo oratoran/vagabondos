@@ -5,8 +5,16 @@
 
     import { onMount } from 'svelte';
     let name;
+    function loadRecapcha(url) {
+        const script = document.createElement("script");  // create a script DOM node
+        script.src = url;  // set its src to the provided URL
+
+        document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+    }
 
 	onMount(() => {
+
+    loadRecapcha('https://www.google.com/recaptcha/api.js?render=6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR');
 		
 		var form = document.getElementById("form");
    form.addEventListener("submit", formSubmit);
@@ -47,10 +55,6 @@
 	});
 
 </script>
-
-<svelte:head>
-  <script src="https://www.google.com/recaptcha/api.js?render=6Lf-_QwaAAAAAKzWA_oXbE99qZmS51gOSJ3yxuIR"></script>
-</svelte:head>
 
 <div class="md:w-4/5 mx-auto py-10 font-semibold text-center">
   <h1 class="text-green-600 text-xl">Vagabondo's Restaurant'a Ulaşım</h1>
