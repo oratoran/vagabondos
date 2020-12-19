@@ -6,11 +6,11 @@
 </script>
 
     <div class="py-8 flex md:flex-row flex-col-reverse justify-center md:space-x-8 bg-hero-pattern bg-cover">
-        <div class="md:w-auto md:mx-1 w-80 border-8 border-yellow-100 mx-auto my-6"><img src="https://www.vagabondosrest.com/wp-content/uploads/2011/12/vagabondo_restaurant_home_41.jpg" alt="vagabondos inside 1"></div>
-        <div class="md:w-auto w-80 border-8 border-yellow-100 mx-auto my-6"><img src="https://www.vagabondosrest.com/wp-content/uploads/2011/12/vagabondo_restaurant_home_6.jpg" alt="vagabondos inside 2"></div>
+        <div class="md:w-auto md:mx-1 w-80 border-8 border-yellow-100 mx-auto my-6"><img src="/images/vagabondo_restaurant_home_41.jpg" alt="vagabondos pizza restaurant 1"></div>
+        <div class="md:w-auto w-80 border-8 border-yellow-100 mx-auto my-6"><img src="/images/vagabondo_restaurant_home_6.jpg" alt="vagabondos pizza restaurant 2"></div>
         <div class="md:w-auto w-80 border-8 border-yellow-100 mx-auto my-6 px-8 max-w-xs bg-white">
             <h1 class="text-xl py-3">Vagabondo’s Restaurant</h1>
-            <img src="https://www.vagabondosrest.com/wp-content/uploads/2011/12/vagabondo_restaurant_home_desc.jpg" alt="vagabondos storefront">
+            <img src="/images/vagabondo_restaurant_home_desc.jpg" alt="vagabondos pizza dış görünüşü">
             <p class="py-2">Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Restaurant 1989 dan bu zamana kadar, {since} yıldır aralıksız sizlere hizmet vermektedir.</p>
     
             <p class="py-2">Romantik atmosferi ile ister soğuk bir kış günü isterseniz güneşli ışıl ışıl bir yaz gününde pizza, enfes soslu steak'lar, salata gibi İtalyan lezzetlerinin keyfini sürebilirsiniz.</p>
