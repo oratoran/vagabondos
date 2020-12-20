@@ -12,7 +12,9 @@
            
     </header>
     </div>
-<slot />
+    <div class="bg-yellow-50">
+        <slot />
+    </div>
 <div class="bg-gray-800 py-6 text-center">
 	<p class="text-white text-sm">Copyright 2020 - Vagabondos Restaurant - Yeniköy / Tasarım: <a href="https://www.kentajans.com">Kent Ajans</a></p>
 </div>
