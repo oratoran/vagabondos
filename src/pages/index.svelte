@@ -27,7 +27,7 @@
                 <div>
                   <div class="text-xl font-medium text-red-900">Açılış Kapanış (Open Daily)</div>
                   <p class="text-gray-500">Hergün 12.00 - 20.00</p>
-                    <p class="italic underline text-green-700">Pazartesi günleri Kapalıyız!</p>
+                    <p class="italic underline text-green-700">Cumartesi ve Pazar günleri Kapalıyız!</p>
                 </div>
             </div>
         </div>
