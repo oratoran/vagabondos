@@ -35,6 +35,10 @@
    
        const formData = new FormData();
        formData.append(
+           'g-recaptcha-response',
+           document.querySelector('input[name="g-recaptcha-response"]').value
+       )
+       formData.append(
            'name',
            document.querySelector('input[name="name"]').value
        )
