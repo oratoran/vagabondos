@@ -1,7 +1,7 @@
 <script>
     import { metatags } from '@roxi/routify'
     metatags.title = 'İletişim'
-    metatags.description = 'Description coming soon...'
+    metatags.description = 'Vagabondos Pizza İletişim Bilgileri, Pizza sipariş hattı'
 
     import { onMount } from 'svelte';
     let formRes;

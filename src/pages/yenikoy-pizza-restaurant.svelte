@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
     import { metatags } from '@roxi/routify';
     metatags.title = 'Yeniköy Pizza Restaurant';
-    metatags.description = 'Description coming soon...';
+    metatags.description = 'Vagabondos Pizza restoran görselleri';
     const photos = 34; // number of photos 
 
 
@@ -72,7 +72,7 @@ onMount(async () => {
   <p>Vagabondo’s Restaurant 1989 yılından bu yana aralıksız olarak hizmet vermektedir.</p>
 </div>
 
-<div class="flex md:w-4/5 mx-auto my-20 lightbox" id="lightbox">
+<div class="flex md:w-4/5 mx-auto py-20 lightbox" id="lightbox">
 <Gallery gap="10" maxColumnWidth="600">
     {#each Array(photos) as photo, i}
         
