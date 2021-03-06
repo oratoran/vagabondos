@@ -1,13 +1,13 @@
 <script>
     import NavLinks from "./_navlinks.svelte";
-    import Content from './Content.svelte';
-    import Modal from './Modal.svelte';
+    // import Content from './Content.svelte';
+    // import Modal from './Modal.svelte';
 </script>
 
 <!-- routify:options preload="proximity" -->
-<Modal>
+<!-- to show popup Modal>
 	<Content />
-</Modal>
+</Modal -->
 <div class="bg-yellow-300 bg-opacity-40">
     <header class="flex flex-col mx-auto py-5">
         <div>

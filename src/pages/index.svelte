@@ -26,12 +26,12 @@
                 </div>
                 <div>
                   <div class="text-xl font-medium text-red-900">Açılış Kapanış (Open Daily)</div>
-                  <p class="text-gray-500">Bir sonraki duyuruya kadar KAPALIYIZ!</p>
-                    <p class="italic underline text-green-700">We are closed!</p>
+                  <p class="text-gray-500">Pazar günü hariç hergün 12.00 - 19.00</p>
+                    <p class="italic underline text-green-700">Pazar günleri kapalıyız!</p>
                 </div>
             </div>
         </div>
-        <div class="boxes mx-4 my-4 hidden">
+        <div class="boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50 rounded-xl shadow-md flex items-center space-x-4">
                 <div class="flex-shrink-0">
                     <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="boxes mx-4 my-4 hidden">
+        <div class="boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50  rounded-xl shadow-md flex items-center space-x-4">
                 <div class="flex-shrink-0">
                     <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
