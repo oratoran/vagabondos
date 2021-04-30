@@ -68,6 +68,5 @@
     "blacklist": [
       "/example/modal/basic/4"
     ]
-  },
-  "dependencies": {}
+  }
 }

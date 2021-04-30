@@ -16,8 +16,8 @@
             <p class="py-2">Romantik atmosferi ile ister soğuk bir kış günü isterseniz güneşli ışıl ışıl bir yaz gününde pizza, enfes soslu steak'lar, salata gibi İtalyan lezzetlerinin keyfini sürebilirsiniz.</p>
         </div>
     </div>
-    <div class="flex-row md:flex justify-center text-center py-20 bg-red-900">
-        <div class="boxes mx-4 my-4">
+    <div class=" flex-row md:flex justify-center text-center py-20 bg-red-900">
+        <div class="hidden boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50 rounded-xl shadow-md flex items-center space-x-4">
                 <div class="flex-shrink-0">
                   <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="boxes mx-4 my-4 hidden">
+        <div class="hidden boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50 rounded-xl shadow-md flex items-center space-x-4">
                 <div class="flex-shrink-0">
                     <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="boxes mx-4 my-4">
+        <div class="hidden boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50  rounded-xl shadow-md flex items-center space-x-4">
                 <div class="flex-shrink-0">
                     <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
