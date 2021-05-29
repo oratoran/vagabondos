@@ -18,7 +18,7 @@
     </header>
     </div>
     <div class="flex-row md:flex justify-center text-center py-20 bg-red-900">
-        <h3 class="text-2xl text-white">Sayın müşterimiz, 29 Nisan 17 Mayıs 2021 tarihleri arasında restoranımız kapalıdır.</h3>
+        <h3 class="text-2xl text-white">Sayın müşterimiz, restoranımızdaki tadilat nedeniyle 30 Haziran 2021 tarihine kadar kapalıyız.</h3>
     </div>
     <div class="bg-yellow-50">
         <slot />
