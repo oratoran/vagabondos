@@ -24,5 +24,5 @@
         <slot />
     </div>
 <div class="bg-gray-800 py-6 text-center">
-	<p class="text-white text-sm">Copyright {new Date().getFullYear()} - Vagabondos Restaurant - Yeniköy / Tasarım: <a href="https://www.kentajans.com" rel="noreferrer">Kent Ajans</a></p>
+	<p class="text-white text-sm">Copyright {new Date().getFullYear()} - Vagabondos Restaurant - Yeniköy / Tasarım: <a href="https://www.kentcode.com" rel="noreferrer">Kent Code</a></p>
 </div>
