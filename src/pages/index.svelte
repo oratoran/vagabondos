@@ -1,19 +1,20 @@
 <script>
     import { metatags } from '@roxi/routify'
     const since = (new Date().getFullYear()) - 1989;
-    metatags.title = "Vagabondo's Restaurant - Yeniköy Pizza"
-    metatags.description = `Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Restaurant 1989 dan bu zamana kadar, ${since} yıldır aralıksız sizlere hizmet vermektedir.`;
+    const isMonday = new Date().getDay() == 1 ? '-- BUGÜN KAPALIYIZ --': '';
+    metatags.title = "Vagabondo's Pizza Restaurant - Yeniköy Pizza"
+    metatags.description = `Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Pizza Restaurant 1989 dan bu zamana kadar, ${since} yıldır aralıksız sizlere hizmet vermektedir.`;
 </script>
 
     <div class="py-8 flex md:flex-row flex-col-reverse justify-center md:space-x-8 bg-hero-pattern bg-cover">
         <div class="md:w-auto md:mx-1 w-80 border-8 border-yellow-100 mx-auto my-6"><img src="/images/vagabondo_restaurant_home_41.jpg" alt="vagabondos pizza restaurant 1"></div>
         <div class="md:w-auto w-80 border-8 border-yellow-100 mx-auto my-6"><img src="/images/vagabondo_restaurant_home_6.jpg" alt="vagabondos pizza restaurant 2"></div>
         <div class="md:w-auto w-80 border-8 border-yellow-100 mx-auto my-6 px-8 max-w-xs bg-yellow-50">
-            <h1 class="text-xl py-3">Vagabondo’s Restaurant</h1>
+            <h1 class="text-xl py-3">Vagabondo’s Pizza</h1>
             <img src="/images/vagabondo_restaurant_home_desc.jpg" alt="vagabondos pizza dış görünüşü">
-            <p class="py-2">Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Restaurant 1989 dan bu zamana kadar, {since} yıldır aralıksız sizlere hizmet vermektedir.</p>
+            <p class="py-2">Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Pizza 1989 dan bu zamana kadar, {since} yıldır aralıksız sizlere hizmet vermektedir.</p>
     
-            <p class="py-2">Romantik atmosferi ile ister soğuk bir kış günü isterseniz güneşli ışıl ışıl bir yaz gününde pizza, enfes soslu steak'lar, salata gibi İtalyan lezzetlerinin keyfini sürebilirsiniz.</p>
+            <p class="py-2">Romantik atmosferi ile ister soğuk bir kış günü isterseniz güneşli ışıl ışıl bir yaz gününde gerçek İtalyan pizzasının keyfini sürebilirsiniz.</p>
         </div>
     </div>
     <div class=" flex-row md:flex justify-center text-center py-20 bg-red-900">
@@ -44,6 +45,10 @@
                     <p class="italic underline text-green-700">Masa müşterisi kabul edemiyoruz</p>
                 </div>
             </div>
+        </div>
+        <div>
+            <p class="text-white text-4xl mb-2 animate-bounce">{isMonday}</p>
+            <p class="text-white">AÇILIŞ: 16:00 KAPANIŞ: 23:00 - PAZARTESİ GÜNLERİ KAPALIYIZ. YEMEKSİZ, İÇECEK SERVİSİ YAPILMAMAKTADIR.</p>
         </div>
         <div class="hidden boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50  rounded-xl shadow-md flex items-center space-x-4">

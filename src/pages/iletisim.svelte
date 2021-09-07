@@ -77,7 +77,7 @@
 </script>
 
 <div class="md:w-4/5 mx-auto py-10 font-semibold text-center">
-  <h1 class="text-green-600 text-xl">Vagabondo's Restaurant'a Ulaşım</h1>
+  <h1 class="text-green-600 text-xl">Vagabondo's Pizza'ya Ulaşım</h1>
   <p>Boğazın kıyısı Yeniköy merkezinde hizmetinizdeyiz.</p>
 </div>
 

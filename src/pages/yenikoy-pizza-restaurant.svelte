@@ -68,8 +68,8 @@ onMount(async () => {
 </script>
 
 <div class="md:w-4/5 mx-auto pt-10 font-semibold text-center">
-  <h1 class="text-green-600 text-2xl">Vagabondo's Restaurant'ı Keşfedin</h1>
-  <p>Vagabondo’s Restaurant 1989 yılından bu yana aralıksız olarak hizmet vermektedir.</p>
+  <h1 class="text-green-600 text-2xl">Vagabondo's Pizza Restaurant'ı Keşfedin</h1>
+  <p>Vagabondo’s Pizza 1989 yılından bu yana aralıksız olarak hizmet vermektedir.</p>
 </div>
 
 <div class="flex md:w-4/5 mx-auto py-20 lightbox" id="lightbox">
