@@ -17,9 +17,6 @@
            
     </header>
     </div>
-    <div class="flex-row md:flex justify-center text-center py-20 bg-red-900">
-        <h3 class="text-2xl text-white">Sayın müşterimiz, 31 Aralık Cuma günü restoranımız kapalıdır. 1 Ocak itibariyle tekrar hizmet vermeye devam edeceğiz. <br/>Yeni yılınızı en içten dileklerimizle kularız.</h3>
-    </div>
     <div class="bg-yellow-50">
         <slot />
     </div>
