@@ -1,5 +1,5 @@
 <script>
-    import NavLinks from "./_navlinks.svelte";
+    // import NavLinks from "./_navlinks.svelte";
     // import Content from './Content.svelte';
     // import Modal from './Modal.svelte';
 </script>
@@ -13,11 +13,11 @@
         <div>
             <img class="mx-auto" src="/vagabondos-yenikoy-pizza.png" alt="vagabondos logo">
         </div>
-            <NavLinks/>
+
            
     </header>
     </div>
-    <div class="bg-yellow-50">
+    <div class="bg-yellow-50 flex flex-col-reverse">
         <slot />
     </div>
 <div class="bg-gray-800 py-6 text-center">
