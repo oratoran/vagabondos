@@ -1,7 +1,7 @@
 <script>
     import { metatags } from '@roxi/routify'
     const since = (new Date().getFullYear()) - 1989;
-    const isMonday = new Date().getDay() == 1 ? '-- KAPALIYIZ, TATİLDEYİZ --': '-- KAPALIYIZ, TATİLDEYİZ --';
+    const isMonday = new Date().getDay() == 1 ? '-- KAPALIYIZ --': '-- KAPALIYIZ --';
     metatags.title = "Vagabondo's Pizza Restaurant - Yeniköy Pizza"
     metatags.description = `Boğaz Kıyısında Bir Yeniköy Klasiği olan Vagabondo’s Pizza Restaurant 1989 dan bu zamana kadar, ${since} yıldır aralıksız sizlere hizmet vermektedir.`;
 </script>
@@ -26,7 +26,7 @@
                   </svg>
                 </div>
                 <div>
-                  <div class="text-xl font-medium text-red-900">KAPALIYIZ</p>
+                  <div class="text-xl font-medium text-red-900">KAPALIYIZ</div>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
         </div>
         <div>
             <p class="text-white text-4xl mb-2 animate-bounce">{isMonday}</p>
-            <p class="text-white">SAYIN ZİYARETÇİMİZ; TATİL NEDENİYLE KAPALIYIZ.</p>
+            <p class="text-white">SAYIN ZİYARETÇİMİZ; VAGABONDO'S RESTAURANT KALICI OLARAK KAPANMIŞTIR.</p>
         </div>
         <div class="hidden boxes mx-4 my-4">
             <div class="p-6 max-w-sm mx-auto bg-yellow-50  rounded-xl shadow-md flex items-center space-x-4">
